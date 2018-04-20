@@ -4,13 +4,13 @@ An Android application that helps to identify pills (prescription and non-prescr
 
 ### Useful Links
 
-- [Work Flows](https://github.com/TejasShahWeberState/SmartMeds/tree/master/docs/workFlows.md)
+- [Work Flows](https://github.com/stv2pointo/SmartMeds/tree/master/docs/workFlows.md)
 
-- [Project start up instructions](https://github.com/TejasShahWeberState/SmartMeds/tree/master/docs/startUp.md)
+- [Project start up instructions](https://github.com/stv2pointo/SmartMeds/tree/master/docs/startUp.md)
 
 - [Jira Board](http://instructorted.com:8080/projects/CS3750G4/summary)
 
-- [APIs](https://github.com/TejasShahWeberState/SmartMeds/tree/master/docs/APIs.md)
+- [APIs](https://github.com/stv2pointo/SmartMeds/tree/master/docs/APIs.md)
 
 
 ### Platform
