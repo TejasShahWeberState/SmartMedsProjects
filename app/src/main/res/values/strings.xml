@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SmartMeds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_MedicationID">Medication Identifier</string>
+    <string name="text_PillName">Pill Name</string>
+    <string name="text_PillInscription">Pill Inscription</string>
+    <string name="checkbox_PillInscription">Check if no/unknown inscription</string>
+    <string name="text_PillColor">Pill Color</string>
+    <string name="text_PillShape">Pill Shape</string>
+    <string name="button_Search">Search</string>
+
+    <string-array name="array_PillColors">
+        <item>Select Pill Color</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Turquoise</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="array_PillShapes">
+        <item>Select Pill Shape</item>
+        <item>Bullet</item>
+        <item>Capsule</item>
+        <item>Clover</item>
+        <item>Diamond</item>
+        <item>Double Circle</item>
+        <item>Freeform</item>
+        <item>Gear</item>
+        <item>Heptagon</item>
+        <item>Hexagon</item>
+        <item>Octagon</item>
+        <item>Oval</item>
+        <item>Pentagon</item>
+        <item>Rectangle</item>
+        <item>Round</item>
+        <item>Semi-Circle</item>
+        <item>Square</item>
+        <item>Tear</item>
+        <item>Trapezoid</item>
+        <item>Triangle</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="button_SearchAll">Search All</string>
+    <string name="name">Name:</string>
+    <string name="inscription">Inscription:</string>
+    <string name="shape">Shape:</string>
+    <string name="color">Color:</string>
+    <string name="title_activity_edit_med">EditMed</string>
+    <string name="pill_name">Pill Name</string>
+    <string name="imprint">Imprint</string>
+    <string name="search">Search</string>
+    <string name="nlm_disclaimer">It is not the intention of NLM to provide specific medical advice, but rather to provide users with information to better understand their health and their medications. NLM urges you to consult with a qualified physician for advice about medications.</string>
+</resources>

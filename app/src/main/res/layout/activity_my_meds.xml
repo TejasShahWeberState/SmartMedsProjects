@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_meds_layout">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="My Meds"
+        android:textColor="@color/japanese_indigo"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/interactions_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:visibility="invisible">
+        <Button
+            android:id="@+id/btnShowInteractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:drawableEnd="@drawable/ic_warning"
+            android:background="@android:color/transparent"
+            android:drawableTint="@android:color/holo_red_dark"
+            android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMyMeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/bottom_nav_view"
+        android:background="@color/gray_300"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_300"
+        app:menu="@menu/bottom_navigation_menu">
+    </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
+
+</RelativeLayout>
